@@ -15,7 +15,7 @@ export const VideoJsPlayer = () => {
     fluid: true,
     sources: [
       {
-        src: "http://localhost:3005/api/dash/stream.mpd", // Replace with your actual MPD URL
+        src: "http://localhost:3005/api/dash/sample/stream.mpd", // Replace with your actual MPD URL
         type: "application/dash+xml",
       },
     ],
